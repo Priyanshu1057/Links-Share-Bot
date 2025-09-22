@@ -14,7 +14,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1018033649"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://priyanshu1234:e6Ze8W8tNxYX2MLp@cluster0.w7grbtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 #Auto approve 
